@@ -16,13 +16,19 @@
       
       function s() {
         //confirm("Are You Sure? (Theres No Going Back) - (im not liable for any damages) - (you may never see this computer start again) - (It May Ruin Your computer)");
-        var proceed = confirm("Are you sure you want to proceed?");
+        var proceed = confirm("Are You Sure? (Theres No Going Back) - (im not liable for any damages) - (you may never see this computer start again) - (It May Ruin Your computer)");
         if (proceed) {
-          //proceed
+          confirm("Theres No Going Back! (Bad Ending) The Madness Will start in 3 2 1");
             } else {
-         //don't proceed
-           }      
-         }
+			    	confirm("You Got The Safe Ending (Good)");
+              
+              var delayInMilliseconds = 4100; 
+                      
+               setTimeout(function() {    
+                 lag();
+                }, delayInMilliseconds); 		      	
+            }      
+        }
     </script>
   </body>
 </html>
